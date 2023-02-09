@@ -1,0 +1,14 @@
+<h1>Listado de libros</h1>
+<hr>
+
+<ul>
+    {{#each books}}
+
+    <li>{{title}} - <a href="/libros/detalles/{{_id}}">detalles</a></li>
+
+    {{/each}}
+</ul>
+
+<hr>
+
+<a href="/">Volver a inicio</a>
